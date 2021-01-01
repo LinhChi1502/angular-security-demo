@@ -3,10 +3,14 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { BypassSecurityComponent } from './bypass-security/bypass-security.component';
+import { InnerHtmlBindingComponent } from './inner-html-binding/inner-html-binding.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    BypassSecurityComponent,
+    InnerHtmlBindingComponent
   ],
   imports: [
     BrowserModule,

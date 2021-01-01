@@ -127,5 +127,8 @@
       }
     }
   },
-  "defaultProject": "angular-security-demo"
+  "defaultProject": "angular-security-demo",
+  "cli": {
+    "analytics": "d38745e4-0b86-4db1-ac55-8d53a693664e"
+  }
 }
